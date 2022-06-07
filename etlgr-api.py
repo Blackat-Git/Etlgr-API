@@ -30,6 +30,7 @@ def index():
 
 @app.route('/<id_tg>')
 def get_etlgr(id_tg):
+    global status, username, date
     try:
         url = f'http://etlgr.io/conversations/{id_tg}/subscription/'  # url страницы
         r = requests.get(url)  # отправляем HTTP запрос и получаем результат
@@ -46,13 +47,14 @@ def get_etlgr(id_tg):
         username = ''
         date = ''
         id_tg = ''
-    etlgr = {'status': status,
-             'id_tg': id_tg,
-             'username': username,
-             'date': date}
-    # print
-    print(etlgr)
-    return jsonify(etlgr)
+    finally:
+        etlgr = {'status': status,
+                 'id_tg': id_tg,
+                 'username': username,
+                 'date': date}
+        # print
+        print(etlgr)
+        return jsonify(etlgr)
 
 
 if __name__ == "__main__":
