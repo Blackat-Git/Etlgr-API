@@ -45,7 +45,9 @@ def get_etlgr(id_tg):
         status = False
         username = ''
         date = ''
+        id_tg = ''
     etlgr = {'status': status,
+             'id_tg': id_tg,
              'username': username,
              'date': date}
     # print
