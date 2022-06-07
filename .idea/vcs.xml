@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../BlackatSearch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Eltgr-API" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Etlgr-API" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../ICQ-API" vcs="Git" />
+  </component>
+</project>
