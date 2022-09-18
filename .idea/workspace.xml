@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe10a8ff-a063-4341-a3c3-92d806164fd5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../BlackatSearch/(re)com(re).py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/(re)com(re).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackatSearch/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackatSearch/User-files/874841468/phone/+79145676730/Skype_+79145676730.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackatSearch/User-files/874841468/phone/+79522287978/Skype_+79522287978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackatSearch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BlackatSearch/aibot.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/aibot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackatSearch/dada.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/dada.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackatSearch/ipad.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/ipad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackatSearch/number.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackatSearch/phone.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/phone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackatSearch/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackatSearch/standoff.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/standoff.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackatSearch/tg.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/tg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ICQ-API/icq-api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ICQ-API/icq-api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackatSearch/modules/email_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/modules/email_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackatSearch/modules/phone.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/modules/phone.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BlackatSearch/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ICQ-API" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,7 +30,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documents/GitHub/ICQ-API&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/Documents/GitHub/BlackatSearch&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
