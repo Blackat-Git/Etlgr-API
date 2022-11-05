@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe10a8ff-a063-4341-a3c3-92d806164fd5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../BlackatSearch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackatSearch/aibot.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/aibot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackatSearch/modules/email_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/modules/email_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackatSearch/modules/phone.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/modules/phone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BlackatSearch/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/../BlackatSearch/text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fe10a8ff-a063-4341-a3c3-92d806164fd5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ICQ-API" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../BlackatSearch" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,6 +32,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\GitHub\Etlgr-API" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="icq-api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ICQ-API" />
@@ -76,5 +75,71 @@
       <updated>1655617276446</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="96bf45e9-0f6b-43bc-b22b-83c39f2d2433">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/../BlackatSearch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="c2828aba-7165-4fb6-9291-5650df819cc8">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="96bf45e9-0f6b-43bc-b22b-83c39f2d2433" value="TOOL_WINDOW" />
+      </map>
+    </option>
   </component>
 </project>

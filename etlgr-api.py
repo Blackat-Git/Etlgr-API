@@ -17,9 +17,9 @@ def index():
 
 @app.route('/<id_tg>')
 def get_etlgr(id_tg):
-    global status, username, date
     try:
         status = True
+        error = False
         url = f'http://etlgr.io/conversations/{id_tg}/subscription/'  # url страницы
         r = requests.get(url)  # отправляем HTTP запрос и получаем результат
         soup = BeautifulSoup(r.text, 'html.parser')
@@ -29,19 +29,21 @@ def get_etlgr(id_tg):
         for date in date:
             soup.find('td').get_text(strip=True)
         date = date.get_text(strip=True)
-    except:
+    except Exception as e:
         status = False
         username = ''
         date = ''
         id_tg = ''
-    finally:
-        etlgr = {'status': status,
-                 'id_tg': id_tg,
-                 'username': username,
-                 'date': date}
-        # print
-        print(etlgr)
-        return jsonify(etlgr)
+        error = e
+
+    etlgr = {'status': status,
+             'id_tg': id_tg,
+             'username': username,
+             'date': date,
+             'error': error}
+    # print
+    print(etlgr)
+    return jsonify(etlgr)
 
 
 if __name__ == "__main__":
