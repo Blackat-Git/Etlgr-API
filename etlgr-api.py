@@ -19,7 +19,7 @@ def index():
 def get_etlgr(id_tg):
     try:
         status = True
-        error = False
+
         url = f'http://etlgr.io/conversations/{id_tg}/subscription/'
         r = requests.get(url)
         soup = BeautifulSoup(r.text, 'html.parser')
@@ -29,12 +29,11 @@ def get_etlgr(id_tg):
         for date in date:
             soup.find('td').get_text(strip=True)
         date = date.get_text(strip=True)
-    except Exception as e:
+    except Exception:
         status = False
         username = ''
         date = ''
         id_tg = ''
-        error = e
 
     etlgr = {
         'status': status,
@@ -46,7 +45,6 @@ def get_etlgr(id_tg):
             f'{id_tg}@etlgr.me',
             f'{id_tg}@etlgr.io'
         ],
-        'error': error,
     }
     # print
     print(etlgr)
