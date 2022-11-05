@@ -20,8 +20,8 @@ def get_etlgr(id_tg):
     try:
         status = True
         error = False
-        url = f'http://etlgr.io/conversations/{id_tg}/subscription/'  # url страницы
-        r = requests.get(url)  # отправляем HTTP запрос и получаем результат
+        url = f'http://etlgr.io/conversations/{id_tg}/subscription/'
+        r = requests.get(url)
         soup = BeautifulSoup(r.text, 'html.parser')
         username = soup.find('p').get_text(strip=True).replace(' ', '').replace('.', '')
         # Date
@@ -36,11 +36,18 @@ def get_etlgr(id_tg):
         id_tg = ''
         error = e
 
-    etlgr = {'status': status,
-             'id_tg': id_tg,
-             'username': username,
-             'date': date,
-             'error': error}
+    etlgr = {
+        'status': status,
+        'id_tg': id_tg,
+        'username': username,
+        'date': date,
+        'emails': [
+            f'{id_tg}@etlgr.com',
+            f'{id_tg}@etlgr.me',
+            f'{id_tg}@etlgr.io'
+        ],
+        'error': error,
+    }
     # print
     print(etlgr)
     return jsonify(etlgr)
